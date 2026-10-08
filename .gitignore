@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Ultralytics runs and experiments
+runs/
+train/
+valid/
+test/
+grouped_dev/
+targeted_aug/
+train_blb2x/
+train_blb_context/
+real_test/
+weights/
+
+# Dataset / generated files
+*.jpg
+*.jpeg
+*.png
+*.cache
+
+# Original pretrained model
+yolo11s.pt
+
+# Dataset documentation
+README.dataset.txt
+README.roboflow.txt
+
+# Experimental dataset YAMLs
+data_blb2x.yaml
+data_blb_context.yaml

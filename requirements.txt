@@ -1,0 +1,8 @@
+ultralytics==8.4.173
+torch
+torchvision
+fastapi
+uvicorn
+python-multipart
+pillow
+opencv-python

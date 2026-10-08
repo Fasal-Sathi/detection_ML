@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bacterial_leaf_blight', 'brown_spot', 'healthy', 'rice_blast']
+
+roboflow:
+  workspace: rice-disease-detection-olj7i
+  project: rice-disease-detection-qiyjo
+  version: 30
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rice-disease-detection-olj7i/rice-disease-detection-qiyjo/dataset/30
